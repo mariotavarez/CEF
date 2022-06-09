@@ -1,0 +1,721 @@
+[
+  {
+    "name": "nombre",
+    "label": "Nombre del solicitante",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su nombre",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 3
+      },
+      {
+        "type": "maxLength",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "name": "apellido_paterno",
+    "label": "Apellido Paterno",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su apellido paterno",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 3
+      },
+      {
+        "type": "maxLength",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "apellido_materno",
+    "label": "Apellido Materno",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su apellido materno",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 3
+      },
+      {
+        "type": "maxLength",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "nacionalidad",
+    "label": "Nacionalidad",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su nacionalidad",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 3
+      },
+      {
+        "type": "maxLength",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "fecha_nacimiento",
+    "label": "Fecha de nacimiento",
+    "value": "",
+    "type": "date",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "name": "domicilio_calle",
+    "label": "Domicilio particular",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su domicilio particular",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 10
+      },
+      {
+        "type": "maxLength",
+        "value": 100
+      }
+    ]
+  },
+  {
+    "name": "domicilio_numero_exterior",
+    "label": "Número exterior",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su número exterior",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 1
+      },
+      {
+        "type": "maxLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "domicilio_numero_interior",
+    "label": "Número interior",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su número exterior",
+    "validations": [
+      {
+        "type": "minLength",
+        "value": 1
+      },
+      {
+        "type": "maxLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "domicilio_colonia",
+    "label": "Colonia",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su colonia",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "name": "domicilio_municipio",
+    "label": "Municipio o Delegación",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su municipio o delegación",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "name": "domicilio_estado",
+    "label": "Estado",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su estado",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "name": "domicilio_codigo_postal",
+    "label": "Código postal",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su código postal",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "domicilio_pais",
+    "label": "País",
+    "value": "",
+    "type": "select",
+    "placeholder": "Ejemplo: MX",
+    "validations": [
+      {
+        "type": "minLength",
+        "value": 2
+      },
+      {
+        "type": "maxLength",
+        "value": 3
+      }
+    ],
+    "options": [
+      {
+        "label": "Afganistán",
+        "id": "AFG"
+      },
+      {
+        "label": "Åland Islands",
+        "id": "ALI"
+      },
+      {
+        "label": "Albania",
+        "id": "ALB"
+      },
+      {
+        "label": "Alemania",
+        "id": "DEU"
+      },
+      {
+        "label": "Andorra",
+        "id": "AND"
+      },
+      {
+        "label": "Angola",
+        "id": "AGO"
+      },
+      {
+        "label": "Anguila",
+        "id": "AIA"
+      },
+      {
+        "label": "Antártida",
+        "id": "ATA"
+      },
+      {
+        "label": "Antigua y Barbuda",
+        "id": "ATG"
+      },
+      {
+        "label": "Antillas Neerlandesas",
+        "id": "ANT"
+      },
+      {
+        "label": "Arabia Saudita",
+        "id": "SAU"
+      },
+      {
+        "label": "Argelia",
+        "id": "DZA"
+      },
+      {
+        "label": "Argentina",
+        "id": "ARG"
+      },
+      {
+        "label": "Armenia",
+        "id": "ARM"
+      },
+      {
+        "label": "Aruba",
+        "id": "ABW"
+      },
+      {
+        "label": "Australia",
+        "id": "AUS"
+      },
+      {
+        "label": "Azerbaiyán",
+        "id": "AZE"
+      },
+      {
+        "label": "Bahamas",
+        "id": "BHS"
+      },
+      {
+        "label": "Bahrein",
+        "id": "BHR"
+      },
+      {
+        "label": "Bangladesh",
+        "id": "BGD"
+      },
+      {
+        "label": "Barbados",
+        "id": "BRB"
+      },
+      {
+        "label": "Belarús",
+        "id": "BLR"
+      },
+      {
+        "label": "Bélgica",
+        "id": "BEL"
+      },
+      {
+        "label": "Bélgica-Luxemburgo",
+        "id": "BLX"
+      },
+      {
+        "label": "Belice",
+        "id": "BLZ"
+      },
+      {
+        "label": "Benin",
+        "id": "BEN"
+      },
+      {
+        "label": "Bermudas",
+        "id": "BMU"
+      },
+      {
+        "label": "Bhután",
+        "id": "BTN"
+      },
+      {
+        "label": "Bolivia",
+        "id": "BOL"
+      },
+      {
+        "label": "Bonaire",
+        "id": "BES"
+      },
+      {
+        "label": "Bosnia y Herzegovina",
+        "id": "BIH"
+      },
+      {
+        "label": "Botswana",
+        "id": "BWA"
+      },
+      {
+        "label": "Brasil",
+        "id": "BRA"
+      },
+      {
+        "label": "Brunei Darussalam",
+        "id": "BRN"
+      },
+      {
+        "label": "Bulgaria",
+        "id": "BGR"
+      },
+      {
+        "label": "Burkina Faso",
+        "id": "BFA"
+      },
+      {
+        "label": "Burundi",
+        "id": "BDI"
+      },
+      {
+        "label": "Canadá",
+        "id": "CAN"
+      },
+      {
+        "label": "Chile",
+        "id": "CHL"
+      },
+      {
+        "label": "China",
+        "id": "CHN"
+      },
+      {
+        "label": "Colombia",
+        "id": "COL"
+      },
+      {
+        "label": "Costa Rica",
+        "id": "CRI"
+      },
+      {
+        "label": "Cuba",
+        "id": "CUB"
+      },
+      {
+        "label": "El Salvador",
+        "id": "SLV"
+      },
+      {
+        "label": "España",
+        "id": "ESP"
+      },
+      {
+        "label": "Estados Unidos",
+        "id": "USA"
+      },
+      {
+        "label": "Filipinas",
+        "id": "PHL"
+      },
+      {
+        "label": "Francia",
+        "id": "FRA"
+      },
+      {
+        "label": "Grecia",
+        "id": "GRC"
+      },
+      {
+        "label": "Guatemala",
+        "id": "GTM"
+      },
+      {
+        "label": "Haití",
+        "id": "HTI"
+      },
+      {
+        "label": "Honduras",
+        "id": "HND"
+      },
+      {
+        "label": "India",
+        "id": "IND"
+      },
+      {
+        "label": "Islandia",
+        "id": "ISL"
+      },
+      {
+        "label": "Islas Caimán",
+        "id": "CYM"
+      },
+      {
+        "label": "Islas Salomón",
+        "id": "SLB"
+      },
+      {
+        "label": "Islas Vírgenes (EE.UU.)",
+        "id": "VIR"
+      },
+      {
+        "label": "Islas Vírgenes Británicas",
+        "id": "VGB"
+      },
+      {
+        "label": "Italia",
+        "id": "ITA"
+      },
+      {
+        "label": "Japón",
+        "id": "JPN"
+      },
+      {
+        "label": "Libia",
+        "id": "LBY"
+      },
+      {
+        "label": "Madagascar",
+        "id": "MDG"
+      },
+      {
+        "label": "Mauricio",
+        "id": "MUS"
+      },
+      {
+        "label": "México",
+        "id": "MEX"
+      },
+      {
+        "label": "Nepal",
+        "id": "NPL"
+      },
+      {
+        "label": "Nigeria",
+        "id": "NGA"
+      },
+      {
+        "label": "Países Bajos",
+        "id": "NLD"
+      },
+      {
+        "label": "Polonia",
+        "id": "POL"
+      },
+      {
+        "label": "Portugal",
+        "id": "PRT"
+      },
+      {
+        "label": "Puerto Rico",
+        "id": "PRI"
+      },
+      {
+        "label": "Qatar",
+        "id": "QAT"
+      },
+      {
+        "label": "Reino Unido",
+        "id": "GBR"
+      },
+      {
+        "label": "República Checa",
+        "id": "CZE"
+      },
+      {
+        "label": "República Dominicana",
+        "id": "DOM"
+      },
+      {
+        "label": "Rumania",
+        "id": "ROM"
+      },
+      {
+        "label": "San Martín",
+        "id": "SXM"
+      },
+      {
+        "label": "San Vicente y las Granadinas",
+        "id": "VCT"
+      },
+      {
+        "label": "Suecia",
+        "id": "SWE"
+      },
+      {
+        "label": "Suiza",
+        "id": "CHE"
+      },
+      {
+        "label": "Timor Oriental",
+        "id": "TMP"
+      },
+      {
+        "label": "Trinidad y Tobago",
+        "id": "TTO"
+      },
+      {
+        "label": "Ucrania",
+        "id": "UKR"
+      },
+      {
+        "label": "Uruguay",
+        "id": "URY"
+      },
+      {
+        "label": "Venezuela",
+        "id": "VEN"
+      },
+      {
+        "label": "Zimbabwe",
+        "id": "ZWE"
+      }
+    ]
+  },
+  {
+    "name": "rfc",
+    "label": "RFC",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su RFC",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 9
+      },
+      {
+        "type": "maxLength",
+        "value": 13
+      }
+    ]
+  },
+  {
+    "name": "tax_id",
+    "label": "TAX ID",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese el TAX ID",
+    "validations": [
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "name": "empleo_razon_social",
+    "label": "Razón social",
+    "value": "",
+    "placeholder": "Ingrese su razón social",
+    "type": "text",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 40
+      }
+    ]
+  },
+  {
+    "name": "empleo_cargo",
+    "label": "Cargo que ocupa dentro de su organización",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su cargo",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 40
+      }
+    ]
+  },
+  {
+    "name": "empleo_correo_electronico",
+    "label": "Correo electrónico",
+    "value": "",
+    "type": "email",
+    "placeholder": "Ingrese su correo electrónico",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "name": "empleo_telefono",
+    "label": "Teléfono de trabajo",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su teléfono de trabajo",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 10
+      },
+      {
+        "type": "maxLength",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "telefono_celular",
+    "label": "Teléfono celular",
+    "value": "",
+    "type": "text",
+    "placeholder": "Ingrese su teléfono celular",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 10
+      },
+      {
+        "type": "maxLength",
+        "value": 10
+      }
+    ]
+  }
+]
